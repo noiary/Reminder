@@ -1,17 +1,13 @@
-package com.maodq.reminder;
+package com.max.reminder;
 
-import com.maodq.reminder.mapper.FinancialRecordMapper;
-import com.maodq.reminder.pojo.FinancialRecord;
+import com.max.reminder.mapper.FinancialRecordMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
-import java.sql.Date;
 import java.sql.SQLException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 
 @SpringBootTest
 class ReminderApplicationTests {

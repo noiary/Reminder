@@ -1,4 +1,4 @@
-package com.maodq.reminder.config;
+package com.max.reminder.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

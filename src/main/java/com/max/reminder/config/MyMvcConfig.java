@@ -1,4 +1,4 @@
-package com.maodq.reminder.config;
+package com.max.reminder.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

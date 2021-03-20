@@ -1,4 +1,4 @@
-package com.maodq.reminder.pojo;
+package com.max.reminder.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

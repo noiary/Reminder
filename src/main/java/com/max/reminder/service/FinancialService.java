@@ -1,6 +1,6 @@
-package com.maodq.reminder.service;
+package com.max.reminder.service;
 
-import com.maodq.reminder.pojo.FinancialRecord;
+import com.max.reminder.pojo.FinancialRecord;
 
 import java.util.List;
 

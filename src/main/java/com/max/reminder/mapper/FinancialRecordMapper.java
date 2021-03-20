@@ -1,8 +1,7 @@
-package com.maodq.reminder.mapper;
+package com.max.reminder.mapper;
 
-import com.maodq.reminder.pojo.FinancialRecord;
+import com.max.reminder.pojo.FinancialRecord;
 import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
