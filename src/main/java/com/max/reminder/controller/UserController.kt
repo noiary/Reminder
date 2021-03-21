@@ -3,12 +3,10 @@ package com.max.reminder.controller
 import com.max.reminder.pojo.model.User
 import com.max.reminder.service.UserService
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestBody
-import org.springframework.web.bind.annotation.RequestParam
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 
-@RestController("/v1/user")
+@RestController
+@RequestMapping("/v1/user")
 class UserController {
     @Autowired
     private lateinit var userService: UserService
