@@ -11,7 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-                http
+        http
                 .authorizeRequests()
                 .anyRequest().authenticated()
                 .and()
@@ -24,9 +24,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         String password = new BCryptPasswordEncoder().encode("123456");
         auth.inMemoryAuthentication().passwordEncoder(new BCryptPasswordEncoder())
-                .withUser("max").password(password).roles()
+                .withUser("max").password(password).roles("admin")
                 .and()
-                .withUser("elsa").password(password).roles();
+                .withUser("elsa").password(password).roles("admin");
     }
 
     @Override
