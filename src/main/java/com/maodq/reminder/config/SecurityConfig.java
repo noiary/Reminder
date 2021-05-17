@@ -1,4 +1,4 @@
-package com.max.reminder.config;
+package com.maodq.reminder.config;
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -26,7 +26,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication().passwordEncoder(new BCryptPasswordEncoder())
                 .withUser("max").password(password).roles("admin")
                 .and()
-                .withUser("elsa").password(password).roles("admin");
+                .withUser("elsa").password(password).roles("admin")
+                .and()
+                .withUser("rui.wan").password(password).roles("admin");
     }
 
     @Override
