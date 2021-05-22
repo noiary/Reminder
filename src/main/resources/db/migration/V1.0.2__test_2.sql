@@ -1,5 +1,4 @@
-use 'public';
-CREATE TABLE `user` (
+CREATE TABLE `user_test2` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `name` varchar(20) NOT NULL COMMENT '姓名',
   `age` int(5) DEFAULT NULL COMMENT '年龄',
